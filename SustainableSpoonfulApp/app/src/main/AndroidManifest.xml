@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@drawable/logo_2"
+        android:label="The Sustainable Spoonful"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SustainableSpoonfulApp"
+        tools:targetApi="31">
+        <!--Main Activity When Opening the Application-->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".RegisterActivity"/> <!--Registration Activity-->
+        <activity android:name=".LoginActivity"/> <!--Login Activity-->
+        <activity android:name=".LandingActivity"/> <!--Landing Page Activity-->
+        <activity android:name=".DiscountActivity"/> <!--Discount Page Activity-->
+        <activity android:name=".AccountActivity"/> <!--Account Page Activity-->
+        <activity android:name=".PicknPayStoreActivity"/> <!--About PicknPay Page:-->
+        <activity android:name=".FoodLoversStoreActivity"/> <!--About Food Lovers Market Page:-->
+        <activity android:name=".CheckersStoreActivity"/> <!--About Checkers Store Page:-->
+        <activity android:name=".WoolworthsStoreActivity"/> <!--About Woolworths Page:-->
+        <activity android:name=".ProductViewActivity"/> <!--Product Page:-->
+        <activity android:name=".EditActivity"/> <!--Edit Activity:-->
+    </application>
+
+</manifest>

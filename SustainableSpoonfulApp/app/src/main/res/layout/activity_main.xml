@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/blue"
+    tools:context=".MainActivity">
+
+<!--Image: Logo-->
+    <ImageView
+        android:id="@+id/logo_image"
+        android:layout_width="350sp"
+        android:layout_height="350sp"
+        android:src="@drawable/logo"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="80sp"
+        tools:ignore="ContentDescription" />
+
+<!--Button: register button-->
+    <Button
+        android:id="@+id/home_register_button"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="90sp"
+        android:layout_marginTop="470sp"
+        android:backgroundTint="@color/white"
+        android:padding="15sp"
+        android:text="@string/home_registerBtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        tools:ignore="TextSizeCheck" />
+
+<!--Button: login button-->
+    <Button
+        android:id="@+id/home_login_button"
+        android:layout_width="170sp"
+        android:layout_height="wrap_content"
+        android:text="@string/home_loginBtn"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:layout_marginTop="570sp"
+        android:layout_marginStart="90sp"
+        android:padding="15sp"
+        android:backgroundTint="@color/white" />
+</RelativeLayout>

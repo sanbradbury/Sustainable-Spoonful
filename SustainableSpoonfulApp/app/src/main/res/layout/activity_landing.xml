@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/plain_background"
+    tools:context=".LandingActivity">
+
+    <!-- Main heading: The Sustainable Spoonful-->
+    <TextView
+        android:id="@+id/landing_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/landing_main_heading"
+        android:textStyle="bold"
+        android:textSize="50sp"
+        android:textColor="@color/black"
+        android:gravity="center"
+        android:layout_marginTop="55sp"
+        />
+
+    <!--Sub heading: Proudly in partnership with:-->
+    <TextView
+        android:id="@+id/landing_subheading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/landing_subheading"
+        android:textSize="24sp"
+        android:textColor="@color/black"
+        android:layout_marginTop="260sp"
+        android:layout_marginStart="20sp"
+        android:gravity="center"
+        />
+
+    <!--Image Button: PicknPay -->
+    <ImageButton
+        android:id="@+id/landing_picknpay_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="350sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/picknpay"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!--Image Button: Food Lover's Market -->
+    <ImageButton
+        android:id="@+id/landing_foodloversmarket_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="120sp"
+        android:layout_marginTop="350sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/foodloversmarket"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!--Image Button: Shoprite -->
+    <ImageButton
+        android:id="@+id/landing_shoprite_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="350sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/shoprite"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!--Image Button: Woolworths-->
+    <ImageButton
+        android:id="@+id/landing_woolworths_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="10sp"
+        android:layout_marginTop="460sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/woolworths"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!--Image Button: Checkers-->
+    <ImageButton
+        android:id="@+id/landing_checkers_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="120sp"
+        android:layout_marginTop="460sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/checkers"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck,ImageContrastCheck" />
+
+    <!--Image Button: Spar-->
+    <ImageButton
+        android:id="@+id/landing_spar_button"
+        android:layout_width="100sp"
+        android:layout_height="100sp"
+        android:layout_marginStart="230sp"
+        android:layout_marginTop="460sp"
+        android:scaleType="fitCenter"
+        android:src="@drawable/spar"
+        android:background="@drawable/image_button_border"
+        android:padding="4dp"
+        tools:ignore="ContentDescription,SpeakableTextPresentCheck" />
+
+    <!--Bottom Navigation Bar:-->
+    <com.google.android.material.bottomnavigation.BottomNavigationView
+        android:id="@+id/bottom_nav_bar"
+        android:layout_width="match_parent"
+        android:layout_alignParentBottom="true"
+        app:menu="@menu/menu_bar"
+        app:itemTextColor="@drawable/menu_bar_on_select"
+        app:itemIconTint="@drawable/menu_bar_on_select"
+        android:background="@drawable/menu_bar_shape"
+        android:layout_height="wrap_content"
+        tools:ignore="VisualLintBottomNav" />
+</RelativeLayout>

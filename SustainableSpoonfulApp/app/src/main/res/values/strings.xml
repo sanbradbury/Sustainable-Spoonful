@@ -1,0 +1,111 @@
+<resources>
+    <string name="app_name">SustainableSpoonfulApp</string>
+
+    <!--16/06/2023: Added string resources instead of using hardcoded strings for the Home page-->
+    <string name="home_registerBtn">Register</string>
+    <string name="home_loginBtn">Login</string>
+
+    <!--30/05/2023: Added string resources instead of using hardcoded strings for the Login Page:-->
+    <string name="login_label">Login</string>
+    <string name="login_email_address_label">Email Address</string>
+    <string name="login_password_label">Password</string>
+    <string name="login_confirm_label">Confirm</string>
+    <string name="login_forgot_password_label">Forgot Password</string>
+    <string name="login_email_autofill_example">example@gmail.com</string>
+    <string name="login_password_autofill_example">********************</string>
+    <string name="login_confirmBtn">Confirm</string>
+
+    <!--16/06/2023: Added string resources instead of using hardcoded strings for the Register Page:-->
+    <string name="register_label">Register</string>
+    <string name="register_name_label">Name</string>
+    <string name="register_name_placeholder">Enter your first name</string>
+    <string name="register_surname_label">Surname</string>
+    <string name="register_surname_placeholder">Enter your surname</string>
+    <string name="register_email_address_label">Email Address</string>
+    <string name="register_email_address_placeholder">Enter your email address</string>
+    <string name="register_password_label">Password</string>
+    <string name="register_password_placeholder">Enter your password</string>
+    <string name="register_confirm_password_label">Confirm Password</string>
+    <string name="register_confirm_password_placeholder">Re-enter your password</string>
+    <string name="register_confirmBtn">Confirm</string>
+
+    <!--16/06/2023: Added string resources instead of using hardcoded strings for the Landing Page:-->
+    <string name="landing_main_heading">The Sustainable Spoonful</string>
+    <string name="landing_subheading">Proudly in partnership with:</string>
+
+    <!--17/06/2023: Added string resources instead of using hardcoded strings for the Discounts Page-->
+    <string name="discount_main_heading">Discounts</string>
+    <string name="discount_subheading">Available Stores:</string>
+
+    <!--17/06/2023: Added string resources instead of using hardcoded strings for the discount cards-->
+    <string name="picknpay_discounts_card">3 Available</string>
+    <string name="foodloversmarket_discounts_card">2 Available</string>
+    <string name="woolworths_discounts_card">3 Available</string>
+    <string name="checkers_discounts_card">3 Available</string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the bottom navigation menu-->
+    <string name="home_bottom_navigation">Home</string>
+    <string name="search_bottom_navigation">Search</string>
+    <string name="account_bottom_navigation">Account</string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the Account page:-->
+    <string name="account_logoutBtn">Logout</string>
+    <string name="account_heading">Account</string>
+    <!--01/07/2023: Added additional string resources instead of using hardcoded strings for the Account page:-->
+    <string name="account_editBtn">Edit</string>
+    <string name="account_deleteBtn">Delete</string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the Discounts Pick n Pay page:-->
+    <string name="picknpay_discount_heading">Pick n Pay</string>
+    <string name="picknpay_discount_subheading">3 Available </string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the Discounts Woolworths page:-->
+    <string name="woolworths_discount_heading">Woolworths</string>
+    <string name="woolworths_discount_subheading">3 Available </string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the Discounts Checkers page:-->
+    <string name="checkers_discount_heading">Checkers</string>
+    <string name="checkers_discount_subheading">3 Available </string>
+
+    <!--18/06/2023: Added string resources instead of using hardcoded strings for the Discounts Food Lovers Market page:-->
+    <string name="food_lovers_discount_heading">Food Lovers Market</string>
+    <string name="food_lovers_discount_subheading">4 Available </string>
+
+    <!--18/06/2023: Labels for products-->
+    <string name="BlueRibbon_Bread"> White Bread Loaf</string>
+    <string name="Oranges">Oranges 1 Kg </string>
+    <string name="Oil">Sunflower Oil 1 L</string>
+    <string name="Milk">Full Cream Milk 2 L</string>
+    <string name="Bananas">Pack of Bananas</string>
+    <string name="Apples">Apples 1.5 Kg</string>
+    <string name="Sandwich">Ultimate Sandwich</string>
+    <string name="Onions">Onions 1 Kg</string>
+    <string name="AcePap">Ace Pap 1 Kg</string>
+    <string name="BrownRice">Brown Rice 1 Kg</string>
+    <string name="Potatoes">UTD Potatoes 1 Kg</string>
+    <string name="Cake">StrawChoc Cake</string>
+    <string name="Rolls">Bread Rolls x6</string>
+
+    <!--20/06/2023: Strings for the physical store pages-->
+    <string name="PicknPay_Address_Label">Address: Van Riebeeck Avenue Greenstone</string>
+    <string name="Woolworths_Address_Label">Address: Bedford Square</string>
+    <string name="Checkers_Address_Label">Address: Meadowdale Mall</string>
+    <string name="FoodLovers_Address_Label">Address: North Reef road, Boksburg</string>
+
+    <!--20/06/2023: Paragraph -->
+    <string name="PicknPay_paragraph">Pick n Pay is a member of the international 10x20x30 initiative and is a founding member of
+    the Consumer Goods Council’s South African Voluntary Food Waste Initiative.</string>
+    <string name="Woolworths_paragraph">Woolworths wants to make it easier for students and people that are struggling.</string>
+    <string name="Checkers_paragraph">Checkers biggest efforts go into preventing food waste and losses before they occur.</string>
+    <string name="FoodLovers_paragraph">Food Lovers Market would love to reduce food waste with waste free shopping.</string>
+
+    <!--20/06/2023: Button-->
+    <string name="view_productsbtn">View Products</string>
+
+    <!--01/07/2023: Added string resources instead of using hardcoded strings for the Edit Account page:-->
+    <string name="edit_label">Edit Account</string>
+    <string name="edit_label_name">Name</string>
+    <string name="edit_label_surname">Surname</string>
+    <string name="edit_label_email">Email Address</string>
+    <string name="edit_confirmBtn">Confirm</string>
+</resources>
