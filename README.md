@@ -18,11 +18,17 @@ Easy Checkout: Conveniently obtain discount codes for products on offer.
 
 ## Why The Sustainable Spoonful?
 For Stores:
+
 Reduce food waste by selling unsold or near-expiry products.
+
 Increase revenue by attracting budget-conscious consumers.
-Cultivate customer loyalty through special offers and discounts. 💸🛒
+
+Cultivate customer loyalty through special offers and discounts.
+
 For Consumers:
+
 Save money on groceries and everyday items.
+
 Access fresh products at discounted prices.
 Play a part in sustainability efforts by supporting a reduction in food waste.
 
