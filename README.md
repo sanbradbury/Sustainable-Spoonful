@@ -13,6 +13,7 @@ https://github.com/sanbradbury/Sustainable-Spoonful/assets/84781976/3c6527b7-baf
 
 ## Features
 Browse Deals: Explore a diverse selection of discounted products available from local stores.
+
 Easy Checkout: Conveniently obtain discount codes for products on offer.
 
 ## Why The Sustainable Spoonful?
